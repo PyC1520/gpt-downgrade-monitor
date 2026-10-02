@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "account_id": "example-account",
+  "threads": [
+    {
+      "session_id": "00000000-0000-4000-8000-000000000002",
+      "host_id": "durable",
+      "title": "示例项目任务",
+      "cwd": "/Users/example/demo-project",
+      "status": "unknown",
+      "verified_at": null,
+      "updated_at": null,
+      "tracked": true
+    }
+  ]
+}
