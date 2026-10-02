@@ -1,0 +1,44 @@
+# 建议复制为独立发布仓库的 .gitignore
+# 私人工作文件及本次交付文件
+work/
+outputs/
+backups/
+backup/
+*-backup-*.zip
+restore-paths.json
+
+# Codex 私人状态、会话和认证资料
+.codex/
+sessions/
+auth.json
+config.toml
+.codex-global-state.json*
+route_desktop_metadata.json
+route_history.jsonl
+credentials*.json
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# 凭据、trace 和运行日志
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+*.jsonl
+trace*.err
+
+# Python / macOS 本地生成文件
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Release archives and personal editor configuration
+*.zip
+.vscode/
+.idea/
